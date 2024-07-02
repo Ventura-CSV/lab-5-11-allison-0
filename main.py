@@ -2,12 +2,11 @@ import random
 
 
 def merge(number1, number2):
-    """
-    ########################################
-    Code Your Program here
-    ########################################
-    """
-    mlist = []
+    # Add lists together
+    mlist = number1 + number2
+    # Sort new list
+    for i in range(len(mlist)):
+
 
     #################
     # Do not delete return statement
