@@ -6,6 +6,11 @@ def merge(number1, number2):
     mlist = number1 + number2
     # Sort new list
     for i in range(len(mlist)):
+        for j in range(i+1,len(mlist)):
+            # Compare current element with next element
+            if mlist[j] < mlist[i]:
+                # Swap if current element is greater than next element
+                mlist[i], mlist[j] = mlist[j], mlist[i]
 
 
     #################
